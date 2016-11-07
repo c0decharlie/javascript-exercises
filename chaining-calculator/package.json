@@ -9,6 +9,9 @@
   "scripts": {
     "test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json"
   },
+  "devDependencies": {
+    "jasmine":"2.5.2"
+  },
   "author": "Cezary Gradowski",
   "license": "MIT"
 }
