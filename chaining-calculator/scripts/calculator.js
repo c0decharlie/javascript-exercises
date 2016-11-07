@@ -1,8 +1,8 @@
 'use strict';
 
-var Calculator = (function(root){
+var Calculator = (function (root) {
 
-    return function(n) {
+    return function (n) {
         var total = n || 0;
 
         return {
@@ -45,3 +45,6 @@ var Calculator = (function(root){
     };
 }(this));
 
+module.exports = {
+    Calculator: Calculator
+}

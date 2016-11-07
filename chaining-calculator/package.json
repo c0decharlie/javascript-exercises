@@ -1,0 +1,14 @@
+{
+  "name": "chaining-calculator",
+  "version": "1.0.0",
+  "description": "JavaScript calculator using chaining method",
+  "main": "scripts/calculator.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json"
+  },
+  "author": "Cezary Gradowski",
+  "license": "MIT"
+}
